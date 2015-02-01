@@ -1,0 +1,568 @@
+/* View inicial Smartphone */
+
+/* ===========================
+   ======= Body ======== 
+   =========================== */
+body {
+	background-image: url("../img/bg.png");
+	color: #000305;
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	line-height: 1.429;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+.body {
+	clear: both;
+	margin: 0 auto;
+	width: 90%;
+	font-size: 90%;
+}
+
+/* ===========================
+   ======= Headings ======== 
+   =========================== */
+
+h2 {font-size: 1.571em}
+h3 {font-size: 1.429em}
+h4 {font-size: 1.286}
+h5 {font-size: 1.143em}
+h6 {font-size: 1em}
+
+h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	line-height: 1.1;
+	margin-bottom: .8em;
+}
+
+.list-header {
+	color: #cf5c3f;
+}
+
+/* ===========================
+   ======= anchor style ======== 
+   =========================== */
+a {
+	outline: 0;
+}
+
+a img {
+	border: 0px;
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #cf5c3f;
+	padding: 0 1px;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	background-color: #cf5c3f;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+/* ===========================
+   ===== Main Navigation ===== 
+   =========================== */
+
+.mainHeader figure {
+
+	margin: 3% 0;
+	margin-bottom: 3%;
+
+}
+
+.mainHeader figure img {
+	margin 0;
+	height: auto;
+    width: 100%;
+}
+
+.mainHeader nav {
+	background: #666666;
+	font-size: 1.143em;
+	height: 120px; /* 4 opções de menu com 40px de altura cada */
+	line-height: 30px;
+	margin: 0 auto 0 auto; 
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	display: block;
+	padding: 5px 0;
+
+}
+
+.mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background: #CF5C3F;
+	color: #fff;
+	text-shadow: none !important;
+}
+
+
+.mainHeader nav ul {
+	list-style: none;
+	padding-left: 0; 
+	margin: 0;	
+}
+
+
+.mainHeader nav li {
+	margin-left: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #fff;
+	display: block;
+	height: 30px;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background-color: #cf5c3f;
+	color: #fff;
+	text-shadow: none;
+}
+
+.mainHeader nav li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+/* ===========================
+   ======= Content Area ====== 
+   =========================== */
+
+.mainContent {
+	margin-top: 4%;
+	margin-bottom: 2%;
+}
+
+
+.content {
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.topContent {
+	background-color: #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 2% 5%;
+	margin-bottom: 3%;
+	margin-bottom: 4%;
+}
+
+
+
+
+/* ===========================
+   ========= Footer ========== 
+   =========================== */
+
+
+.mainFooter {
+	width: 100%;
+	float: left;
+	margin: 2% 0;
+	margin-bottom: 2%;
+	padding-left: 0;
+	background-color: #666;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	color: #fff;	
+}
+
+.mainFooter p {
+	width: 86%;
+	margin: 2% auto;
+}
+
+
+/* ===========================
+   ======= Form ======== 
+   =========================== */
+
+form {
+	    padding: 0 0 1.3em;
+	    }
+    
+form ul {
+    list-style: none;
+    padding: 1.3em 0 0;
+}
+    
+form li {
+    padding: 0 0 .65em;
+}
+
+legend {
+	font-size: 1.382em; 
+	line-height: 1.223;
+}
+	    
+label {
+    display: block;
+	font-size: 1em;
+	line-height: 1.56;
+    padding: 0 0 .325em;
+}
+	
+legend, label {      
+	font-weight: 300;
+	color: #000305;
+}
+
+input,
+textarea, select {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	line-height: 1.3;
+	font-weight: 500;
+    padding: .65em;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+	/**
+	 * 1. Remove default vertical scrollbar in IE 6/7/8/9.
+	 * 2. Improve readability and alignment in all browsers.
+	 */
+
+textarea {
+    padding-bottom: 10%;
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
+}
+
+.send {
+    display: inline-block;
+    max-width: 30em;
+    font-size: 1em;
+    line-height: 1;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    background: #666666;
+    margin: .65em .26em;
+    padding: .975em;
+    border: 0;
+    border-radius: 0.8em;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, .65);
+}
+
+.send:hover {
+    background: #cf5c3f;
+}
+
+.send:active,
+.send:focus {
+    background: #666666;
+}
+
+/* ===========================
+   ======= Table ======== 
+   =========================== */
+
+
+table {
+    width: 100%;
+    margin: 1em 0;
+}
+tbody tr:hover{
+    background-color: #EEE;
+}
+tr + tr {
+    border-top:1px solid #CCC;
+}
+td {
+    padding: .5em;
+}
+
+td a:before{
+    font-size: 20px;
+}
+td a{
+    font-size: 1;
+    text-decoration: none;
+    color: #666666;
+}
+
+td a:hover{
+    
+    font-size: 1;
+    text-decoration: none;
+    padding-top: .5em; 
+    padding-bottom: .5em;
+}
+
+th{
+    color: #fff;
+    background: #cf5c3f;
+    text-align: center;
+}
+
+/*table a:link, table a:visited {
+	color: #666666;
+	height: 30px;
+	padding: 5px;
+	text-decoration: none;
+}
+
+table a:hover, table a:active,
+.active a:visited {
+	background-color: #cf5c3f;
+	color: #fff;
+	text-shadow: none;
+}
+*/
+
+
+
+/* ******************************************
+	Media Queries for screen wider than 45em (720px)
+****************************************** */
+
+@media screen and (min-width: 45em) {
+
+
+/* ===========================
+   ======= Body ======== 
+   =========================== */
+body {
+	font-size: 87.5%;
+}
+
+.body {
+	width: 70%;
+}
+
+
+/* ===========================
+   ===== Main Navigation ===== 
+   =========================== */
+
+.mainHeader figure {
+	margin: 3% 0;
+}
+
+.mainHeader figure img {
+	margin 0;
+	height: auto;
+    width: 30%;
+}
+
+.mainHeader nav {
+	background: #666666;
+	font-size: 1.143em;
+	height: 40px;
+	line-height: 30px;
+	margin: 0 auto 30px auto;  /* centralizando a nav , margin-bottom 30*/
+}
+
+.mainHeader nav ul {
+	list-style: none;
+	margin: 0 auto;  
+}
+
+.mainHeader nav ul li {
+	display: inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #fff;
+	display: inline-block;
+	height: 30px;
+	padding: 5px 35px;
+	text-decoration: none;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background-color: #cf5c3f;
+	color: #fff;
+	text-shadow: none;
+}
+
+/* ===========================
+   ======= Content Area ====== 
+   =========================== */
+
+.mainContent {
+	margin-top: 4%;
+	margin-bottom: 2%;
+}
+
+
+.content {
+	width: 100%;
+	float: left;
+}
+
+.topContent {
+	background-color: #fff;
+	padding: 3%;
+	margin-bottom: 1%;
+}
+
+
+/* ===========================
+   ========= Footer ========== 
+   =========================== */
+
+
+.mainFooter {
+	width: 100%;
+	float: left;
+	margin: 2% 0;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding-left: 0;
+}
+
+.mainFooter p {
+	width: 91%;
+	margin: 2% auto;
+}
+
+
+/* ===========================
+   ======= Form ======== 
+   =========================== */
+
+	.name, .price {
+	    float: left;
+	    width: 50%;
+	    -webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	    }
+
+	.name {
+	    padding-right: .65em;
+	    }
+
+	.price {
+	    padding-left: .65em;
+	    }
+
+	.type {
+	    float: left;
+		width: 100%;
+	    -webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+
+    }
+
+
+
+	.send {
+	    display: block;
+	    width: 48.6%;
+	    }
+}
+
+
+	/* ******************************************
+		Media Queries for screen wider than 60em (960px)
+	****************************************** */
+
+/* ===========================
+   ======= Form ======== 
+   =========================== */
+	
+	@media (min-width: 60em) {
+
+	
+	.name, .price {
+	    float: left;
+	    width: 50%;
+	    -webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	    }
+
+	.name {
+	    padding-right: .65em;
+	    }
+
+	.price {
+	    padding-left: .65em;
+	    }
+
+	.type {
+/* 	    float: left; */
+		width: 55%;
+		margin-bottom: 2%;
+	    -webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+
+    }
+
+
+
+	.send {
+	    display: block;
+	    width: 48.6%;
+	    padding-left: 0;
+	    
+	    margin-left: 0;
+	    }
+	
+	
+/* 	.name, .price, .type { */
+/* 	    padding-right: 1.3em; */
+/* 	    padding-left: 0; */
+/* 	    clear: both; */
+/*     } */
+    
+/* 	.type { */
+/* 	    float: left; */
+/* 	    padding-left: .65em; */
+/* 	    margin: 0%; */
+/* 		width: 47%; */
+/* 		padding: 0; */
+/* 	    -webkit-box-sizing: border-box; */
+/* 	    -moz-box-sizing: border-box; */
+/* 	    box-sizing: border-box; */
+
+/*     } */
+
+
+/* 	.description textarea { */
+/* 	    width: 48%; */
+/*     } */
+    
+/* 	.send { */
+/* 	    width: 25%; */
+/* 	    margin-left: 50%; */
+/*     } */
+    
+	}
